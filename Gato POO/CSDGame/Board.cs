@@ -41,6 +41,7 @@ namespace CSDGame
             {
                 for (int y = 0; y < 3; y++)
                 {
+                    
                     propietario[x, y] = new Propietario();
                     propietario[x, y].setValue(B);
                     propietario[x, y].setLocation(new Point(x,y));
